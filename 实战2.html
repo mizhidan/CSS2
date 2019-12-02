@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .top {
+            height: 150px;
+            width: 100%;
+            background-color: #32394A;
+        }
+
+        .top-inline {
+            padding: 3% 0 3% 0;
+        }
+
+        .back-icon {
+            float: left;
+            width: 5%;
+            height: 50px;
+            margin: 2% 0 0 5%;
+            background-image: url(./pics/back.png);
+            background-size: 100% 100%;
+        }
+
+        .home-title {
+            height: 80%;
+            width: 70%;
+            padding: 2% 0 0 20%;
+            color: white;
+            font-size: 40px;
+            text-align: left;
+        }
+
+        .cart-icon {
+            float: right;
+            width: 5%;
+            height: 50px;
+            margin: 2% 5%;
+            margin-left: -100%;
+            background-image: url(./pics/cart.png);
+            background-size: 100% 100%;
+        }
+
+        .banner {
+            height: 600px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-image: url(./pics/roll-1.jpg);
+            background-size: cover;
+            z-index: 1;
+        }
+
+
+
+        .dots {
+            position: absolute;
+            top: 700px;
+            right: 0;
+            width: 90px;
+            height: 30px;
+            float: right;
+        }
+
+        .dots .hoverdot {
+            border: 7px solid white;
+            height: 0;
+            width: 0;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .dots .unhoverdot {
+            border: 7px solid  rgba(224, 217, 217, 0.5) ;
+            height: 0px;
+            width: 0px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .itemlist{
+            width: 100%;
+            height: 180px;
+        }
+
+        .item-line1{
+            height: 80px;
+            width: 100%;
+        }
+        .item-line2{
+            height: 80px;
+            width: 100%;
+        }
+
+        a{
+            width: 30%;
+            height: 40%;
+            margin: 20px  5px ;
+            margin-left: 2%;
+            margin-right: 0%;
+            padding-top: 10px;
+            border: 1px rgba(128, 128, 128, 0.527) solid;
+            border-radius: 8px;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .itemlist a:hover{
+            background-color: #FF2D50;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div class="top-inline">
+            <div class="back-icon"></div>
+            <div class="cart-icon"></div>
+            <div class="home-title">零食乐园</div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="dots">
+            <div class="unhoverdot"></div>
+            <div class="unhoverdot"></div>
+            <div class="hoverdot"></div>
+        </div>
+    </div>
+    <div class="itemlist">
+        <div class="item-line1">
+            <a href="#" class="item">饼干</a>
+            <a href="#" class="item">面包</a>
+            <a href="#" class="item">糖果</a>
+        </div>
+        <div class="item-line2">
+            <a href="#" class="item">鱿鱼干</a>
+            <a href="#" class="item">巧克力</a>
+            <a href="#" class="item">薯片</a>
+        </div>
+    </div>
+</body>
+
+</html>
