@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    height: 150px;
+    width: 100%;
+    background-color: #32394A;
+}
+
+.top-inline {
+    padding: 3% 0 3% 0;
+}
+
+.back-icon {
+    float: left;
+    width: 5%;
+    height: 50px;
+    margin: 2% 0 0 5%;
+    background-image: url(../pics/back.png);
+    background-size: 100% 100%;
+}
+
+.shop-name {
+    height: 80%;
+    width: 70%;
+    padding: 2% 0 0 20%;
+    font-size: 40px;
+    text-align: left;
+    color: white;
+}
+
+.cart-icon {
+    float: right;
+    width: 5%;
+    height: 50px;
+    margin: 2% 5%;
+    margin-left: -100%;
+    background-image: url(../pics/cart.png);
+    background-size: 100% 100%;
+}
+
+.banner {
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../pics/roll-1.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+.dots {
+    position: absolute;
+    float: right;
+    top: 700px;
+    right: 0;
+    width: 90px;
+    height: 30px;
+}
+
+.dots .hover-dot {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+.dots .unhover-dot {
+    display: inline-block;
+    border: 7px solid rgba(224, 217, 217, 0.5);
+    height: 0;
+    width: 0;
+    border-radius: 50%;
+}
+
+.item-list {
+    width: 100%;
+    height: 180px;
+}
+
+.item-line1 {
+    height: 80px;
+    width: 100%;
+}
+
+.item-line2 {
+    height: 80px;
+    width: 100%;
+}
+
+a {
+    display: inline-block;
+    width: 30%;
+    height: 40%;
+    margin: 20px 0 5px 2%;
+    padding-top: 10px;
+    border: 1px rgba(128, 128, 128, 0.527) solid;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.itemlist a:hover {
+    background-color: #FF2D50;
+}
